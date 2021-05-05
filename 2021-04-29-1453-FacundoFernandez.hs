@@ -44,4 +44,12 @@ No se si es válido pensarlo asi
 
 Alf — 29/04/2021
 Bien lo de funcionDeSuma
+
+Alf — 05/05/2021
+Perdón, me colgué en la respuesta. No, esta no es la forma de pensarlo. Si la composición recibe una función de b en c y una función de a en b, y devuelve una función de a en c:
+(.) :: (b -> c) -> (a -> b) -> a -> c
+
+¿Quién es f en ese lío?
+¿Qué es lo que está recibiendo y qué está devolviendo en realidad f? ¿Qué es c?
+
 -}
